@@ -20,7 +20,7 @@ public class InicioSelenium {
 		driver.findElement(By.id("email")).sendKeys("marcos3dt@marcos");
 		driver.findElement(By.id("senha")).sendKeys("123");
 		driver.findElement(By.tagName("button")).click();
-		driver.quit();
+//		driver.quit();
 		
 	}
 }

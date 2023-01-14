@@ -9,10 +9,10 @@ public class ConnectionFactory {
 	private static Connection conn;
 	
 	private static String host = "localhost"; 
-	private static String porta = "5432"; 
+	private static String porta = "5432";
 	private static String schema = "dbunit"; 
 	private static String user = "postgres"; 
-	private static String senha = "passwd"; 
+	private static String senha = "root";
 	
 	public static Connection getConnection() throws SQLException, ClassNotFoundException {
 		if(conn == null) {
